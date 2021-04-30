@@ -2,6 +2,7 @@ package techproedturkish01.techproedturkish01api;
 import org.junit.Test;
 import io.restassured.response.Response;
 import static io.restassured.RestAssured.*;
+import static io.restassured.RestAssured.given;
 public class GetRequest01 {
 	
 //Rest-Assured kullanarak API Testing yapacagiz	
@@ -59,4 +60,5 @@ public class GetRequest01 {
 		contentType("application/json; charset=utf-8");
 	
 	}
+
 }
